@@ -1,0 +1,17 @@
+a:hover {
+    color: #FF0000;
+}
+.specs td:nth-child(1) {
+    font-weight: bold;
+    padding-right: 5px;
+}
+.calendar-table tr td {
+    vertical-align: top;
+    padding-bottom: 20px;
+}
+.calendar-table tr td:nth-child(1) {
+    width: 30%;
+}
+.calendar-table tr td:nth-child(2) {
+    padding-left:8px;
+}
