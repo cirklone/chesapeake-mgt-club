@@ -73,3 +73,8 @@ body > table > tbody > tr:nth-child(2) > td:nth-child(2) > table {
     vertical-align: top;
     padding-bottom: 12px; 
 }
+
+.sale-item {
+    border-left: 2px solid #e1e1e1;
+    padding-left: 8px
+}
