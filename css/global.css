@@ -3,28 +3,63 @@ html {
     height: 100%
 }
 
+a,
 a:hover {
-    color: #FF0000;
+    color: #1f3e94;
 }
 
-body > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+img {
+    padding-bottom: 1.2em;
+}
+
+.hazard {
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #666666;
+}
+
+.content {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+body>table>tbody>tr:nth-child(2)>td:nth-child(2) {
     padding: 16px;
     margin: auto;
     text-align: center;
 }
 
+body>table>tbody>tr:nth-child(2)>td:nth-child(2)>table {
+    margin: auto;
+}
+
+/* home */
+.tag {
+    font-style: italic;
+}
+
 .announcements {
-    padding: 12px 0 16px;;
+    padding: 12px 0 16px;
     font-size: x-large;
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-body > table > tbody > tr:nth-child(2) > td:nth-child(2) > table {
-    margin: auto;
-}
-
 .title-sub {
     margin: 12px 0 24px 0;
+}
+
+.sale-item {
+    border-left: 2px solid #e1e1e1;
+    padding-left: 8px
 }
 
 .specs td:nth-child(1) {
@@ -55,12 +90,6 @@ body > table > tbody > tr:nth-child(2) > td:nth-child(2) > table {
     text-align: center;
 }
 
-.content {
-    text-align: left;
-    max-width: 600px;
-    margin: auto;
-}
-
 .join-address {
     display: inline-block;
     background-color: rgb(255, 213, 239);
@@ -71,10 +100,5 @@ body > table > tbody > tr:nth-child(2) > td:nth-child(2) > table {
 
 .tech-articles td {
     vertical-align: top;
-    padding-bottom: 12px; 
-}
-
-.sale-item {
-    border-left: 2px solid #e1e1e1;
-    padding-left: 8px
+    padding-bottom: 12px;
 }
