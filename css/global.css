@@ -7,6 +7,26 @@ a:hover {
     color: #FF0000;
 }
 
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    padding: 16px;
+    margin: auto;
+    text-align: center;
+}
+
+.announcements {
+    padding: 12px 0 16px;;
+    font-size: x-large;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > table {
+    margin: auto;
+}
+
+.title-sub {
+    margin: 12px 0 24px 0;
+}
+
 .specs td:nth-child(1) {
     font-weight: bold;
     padding-right: 5px;
@@ -14,7 +34,7 @@ a:hover {
 
 .calendar-table tr td {
     vertical-align: top;
-    padding-bottom: 20px;
+    padding-bottom: 26px;
 }
 
 .calendar-table tr td:nth-child(1) {
@@ -23,4 +43,33 @@ a:hover {
 
 .calendar-table tr td:nth-child(2) {
     padding-left: 8px;
+}
+
+.odbc-gallery {
+    width: 80%;
+    margin: auto;
+}
+
+.odbc-gallery tr td {
+    padding: 0 0 30px;
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+}
+
+.join-address {
+    display: inline-block;
+    background-color: rgb(255, 213, 239);
+    margin: auto;
+    padding: 6px;
+    text-align: left;
+}
+
+.tech-articles td {
+    vertical-align: top;
+    padding-bottom: 12px; 
 }
