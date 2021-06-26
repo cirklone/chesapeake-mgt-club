@@ -2,74 +2,28 @@
 <html lang="en-US" dir="ltr">
 
 <head>
-	<title>Chesapeake Chapter of the New England MG T Register</title>
-	<meta name="description" content="The homepage of the Chesapeake Chapter of the New England MG T Register">
-	<meta name="Description" content="Dedicated to the enjoyment and preservation of MG T-type and MG sportscars!">
-	<meta name="keywords"
-		content="Chesapeake, NEMGTR, car club, MG T Register, MG, T, British cars, automobiles, vintage autos, lbc, British Car Day">
-	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-	<style fprolloverstyle>
-		A:hover {
-			color: #FF0000
-		}
-	</style>
-	<script>
-		function FP_preloadImgs() { //v1.0
-			var d = document,
-				a = arguments;
-			if (!d.FP_imgs) d.FP_imgs = new Array();
-			for (var i = 0; i < a.length; i++) {
-				d.FP_imgs[i] = new Image;
-				d.FP_imgs[i].src = a[i];
-			}
-		}
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chesapeake Chapter of the New England MG T Register</title>
+    <meta name="description" content="Dedicated to the enjoyment and preservation of MG T-type and MG sportscars!">
+    <meta name="keywords"
+        content="Chesapeake, NEMGTR, car club, MG T Register, MG, T, British cars, automobiles, vintage autos, lbc, British Car Day">
 
-		function FP_swapImg() { //v1.0
-			var doc = document,
-				args = arguments,
-				elm, n;
-			doc.$imgSwaps = new Array();
-			for (n = 2; n < args.length; n += 2) {
-				elm = FP_getObjectByID(args[n]);
-				if (elm) {
-					doc.$imgSwaps[doc.$imgSwaps.length] = elm;
-					elm.$src = elm.src;
-					elm.src = args[n + 1];
-				}
-			}
-		}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168774847-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-168774847-1');
+    </script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/global.css">
 
-		function FP_getObjectByID(id, o) { //v1.0
-			var c, el, els, f, m, n;
-			if (!o) o = document;
-			if (o.getElementById) el = o.getElementById(id);
-			else if (o.layers) c = o.layers;
-			else if (o.all) el = o.all[id];
-			if (el) return el;
-			if (o.id == id || o.name == id) return o;
-			if (o.childNodes) c = o.childNodes;
-			if (c)
-				for (n = 0; n < c.length; n++) {
-					el = FP_getObjectByID(id, c[n]);
-					if (el) return el;
-				}
-			f = o.forms;
-			if (f)
-				for (n = 0; n < f.length; n++) {
-					els = f[n].elements;
-					for (m = 0; m < els.length; m++) {
-						el = FP_getObjectByID(id, els[n]);
-						if (el) return el;
-					}
-				}
-			return null;
-		}
-	</script>
-	<style type="text/css">
-		.auto-style1 {
-			font-size: small;
-		}
-	</style>
 </head>
 
 <body topmargin=0 leftmargin=0 rightmargin=0 bottommargin=0 background="../../images/bkgrnd.jpg"
