@@ -14,17 +14,24 @@ a:hover {
 }
 
 img {
-    padding-bottom: 1.2em;
+    /* padding-bottom: 1.2em; */
 }
 
-.hazard {
-    padding: 0;
+.title--row1 {
+    text-transform: uppercase;
+    padding: 0 16px;
 }
-
+.title--row2 { 
+    font-size: 1.6em;
+    padding: 0 16px;
+ }
 h2 {
     font-size: 1.2em;
     font-weight: lighter;
     text-transform: uppercase;
+    padding: 0 16px;
+    background-color: black;
+    color: white;
 }
 
 h3 {
@@ -50,12 +57,6 @@ body>table>tbody>tr:nth-child(2)>td:nth-child(2)>table {
 /* home */
 .tag {
     font-style: italic;
-}
-
-.announcements {
-    padding: 12px 0 16px;
-    font-size: x-large;
-    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .title-sub {
