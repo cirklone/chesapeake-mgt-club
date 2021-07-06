@@ -29,6 +29,7 @@ h2 {
     font-size: 1.2em;
     font-weight: lighter;
     text-transform: uppercase;
+    margin: 0;
     padding: 0 16px;
     background-color: black;
     color: white;
@@ -44,8 +45,9 @@ h3 {
     margin: auto;
 }
 
+/* body table */
 body>table>tbody>tr:nth-child(2)>td:nth-child(2) {
-    padding: 16px;
+    padding: 0;
     margin: auto;
     text-align: center;
 }
@@ -86,6 +88,10 @@ body>table>tbody>tr:nth-child(2)>td:nth-child(2)>table {
     padding-left: 8px;
 }
 
+.photo-gallery li {
+    list-style-type: none;
+    padding-bottom: 8px;
+}
 .odbc-gallery {
     width: 80%;
     margin: auto;
