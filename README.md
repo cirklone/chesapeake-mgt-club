@@ -12,7 +12,7 @@ To get started, first install Git on your computer.
 
 * https://git-scm.com/
 
-For editing the code you may build an IDE by extending this editors: Microsoft's Visual Studio Code, Sublime, Atom, VI, Notepad+, etc.
+For editing the code you may build an IDE by extending an editors sucha as __Microsoft's Visual Studio Code__, __Sublime__, __Atom__, __VI__, __Notepad+__, etc.
 
 1. clone the repo
 2. look at backlog of tickets for work
